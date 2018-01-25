@@ -1,0 +1,61 @@
+html, body{
+	background-color: #FFFEF3;
+}
+#container{
+	height: 300px;
+	width: 400px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-left: 3%;
+	background: #E2E2E2;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#varA, #varB, #cleanA, #cleanB, #execute, #menu{
+	height: 50px;
+	width: 150px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #F0EEEE;
+	margin-top: 20px;
+	margin-left: 30px;
+	float: left;
+	font-size: 30px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	outline: none;
+}
+#varA, #varB{
+	height: 50px;
+	text-align: center;
+} 
+#cleanA, #cleanB, #execute{
+	height: 30px;
+	font-size: 14px;
+}
+#menu, #execute{
+	height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+}
+#menu>span{
+	margin-left: 3px;
+}
+#menu>select{
+	text-align: center;
+	margin-left: 25px;
+	background: #F0EEEE;
+	outline: none;
+}
+#result{
+	height: 55px;
+	width: 330px;
+	border: 1px solid black;
+	border-radius: 5px;
+	float: left;
+	margin-top: 20px;
+	padding-top: 20px;
+	margin-left: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #F0EEEE;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="container">
+		<div>
+			<input id="varA" type="text">
+		</div>
+		<div>
+			<input id="varB" type="text">
+		</div>
+
+		<button id="cleanA">Очистить</button>
+		<button id="cleanB">Очистить</button>
+		
+		<div id="menu" type="text">
+			<span>Выберите действие:</span>
+			<select id="calcMenu">
+				<option value='+'>Сложение</option>
+				<option value='-'>Вычитание</option>
+				<option value='*'>Умножение</option>
+				<option value='/'>Деление</option>
+			</select>
+		</div>
+
+		<button id="execute">Выполнить</button>
+		
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+	
+</body>
+</html>
